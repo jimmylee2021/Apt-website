@@ -465,7 +465,11 @@ footer {
 }
 .foo-txt-div {
     margin-left: 0px;
+    margin-top: 20px;
     text-align: left;
+}
+.links a {
+    padding-top: 10px;
 }
 .works-btn .btn {
     font-size: 15px;
