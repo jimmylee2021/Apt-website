@@ -1,0 +1,132 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+.abt-hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.abt-hero h1 {
+    font-size: 50px;
+    color:#0B487F;
+    font-style: normal;
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+}
+.abt-hero h1 span {
+    color: #FF360C;
+}
+.abt-hero p {
+    width: 600px;
+    font-family: 'Inter';
+    color: #000;
+    line-height: 38px;
+}
+.abt-hero p > a {
+    text-decoration: none;
+    font-family: 'Inter';
+    color: #000;
+}
+.image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 650px;
+}
+.image-div img {
+    max-width: 100%;
+}
+.abt-us-div {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.abt-us-div h1 {
+    font-size: 35px;
+    color:#0B487F;
+    font-style: normal;
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+}
+.abt-us-div p {
+    font-family: 'Inter';
+    color: #000;
+    line-height: 30px;
+}
+.abt-text {
+    width: 300px;
+    margin: 20px;
+}
+.team-bx{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team-box {
+    background: #0CE8E6;
+    padding: 80px;
+    border-radius: 12px;
+}
+.team {
+    background: #F8F0FB;
+    padding: 20px;
+    border-radius: 24px;
+    width: 300px;
+    margin: 10px;
+}
+.team-txt h1 {
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #0B487F;
+}
+.team-txt p {
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #000;
+}
+@media only screen and (max-width: 1024px) {
+    .abt-text {
+        width: 250px;
+        margin: 20px;
+    }
+    .abt-text h1 {
+        font-size: 25px;
+    }
+    .abt-text p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+}
+@media only screen and (max-width: 769px){
+    .abt-hero h1 {
+        font-size: 25px;
+    }
+    .abt-hero p {
+        font-size: 15px;
+        width: 320px;
+    }
+    .image-div {
+        width: 320px;
+    }
+    .abt-us-div h1{
+        font-size: 30px;
+    }
+    .abt-us-div p {
+        font-size: 15px;
+    }
+    main{
+        padding: 20px;
+    }
+}

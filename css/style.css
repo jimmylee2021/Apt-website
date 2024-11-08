@@ -103,9 +103,9 @@ nav.nav.active a {
     text-decoration: none;
     background: #0CE8E6;
     color: #0B487F;
-    font-family: "DM Serif Display", serif;
+    font-family: 'Inter';
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     border-radius: 8px;
 }
@@ -119,6 +119,9 @@ nav.nav.active a {
     margin-top: 50px;
     padding: 20px;
     flex-wrap: wrap;
+}
+.col-1 img{
+    width: 400px;
 }
 .col-2 {
     margin-top: 60px;
@@ -134,14 +137,14 @@ nav.nav.active a {
 }
 .col-2 p {
     width: 420px;
-    line-height: 38px;
+    line-height: 28px;
     margin-top: 20px;
     font-family: "Inter";
     color:black;
 }
 .works {
-    padding: 50px;
     background: url(../img/Subtract.png) top right no-repeat;
+    padding: 20px;
 }
 .works h1 {
     text-align: center;
@@ -160,19 +163,19 @@ nav.nav.active a {
 }
 .box {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 .box-item {
     margin: 20px;
 }
 .box-item img {
-    width: 450px;
+    width: 400px;
 }
 .txt-div{
-    width: 450px;
+    width: 400px;
 }
 .txt-div h2 {
     font-family: 'Inter';
@@ -324,12 +327,6 @@ footer {
     .banner {
         height: 100%;
     }
-    .col {
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-        text-align: center;
-       }
        .col-2 {
         margin-left: 0px;
        }
@@ -345,7 +342,21 @@ footer {
        }
        .in-touch .col-2 {
         margin-left: 20px;
+        padding: 20px;
         margin-top: 50px;
+    }
+    .in-touch .col-1 {
+        width: 350px;
+    }
+    .in-touch .col-2 h1 {
+        font-size: 30px;
+        line-height: 28px;
+    }
+    .in-touch .col-1 a {
+        line-height: 18px;
+    }
+    .in-touch .col-1 img{
+        width: 100%;
     }
     .img-div img{
         width: 100px;
@@ -366,6 +377,22 @@ footer {
     }
     .logo-div {
         margin-top: 70px;
+    }
+    .col-1 img {
+        width: 400px;
+       }
+    .flex-div{
+        display: flex;
+        width: 260px;
+        margin: 20px;
+    }
+    .col-2 {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .col-2 h1 {
+        font-size: 30px;
+        line-height: 38px;
     }
 }
 @media only screen and (max-width: 769px){
@@ -410,6 +437,12 @@ footer {
    }
    .row-2 {
     margin-top: 50px;
+   }
+   .col {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
    }
    .col-1 img {
     width: 300px;
