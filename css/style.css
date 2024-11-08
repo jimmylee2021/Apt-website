@@ -103,6 +103,7 @@ nav.nav.active a {
     text-decoration: none;
     background: #0CE8E6;
     color: #0B487F;
+    font-family: "DM Serif Display", serif;
     display: inline-block;
     font-size: 20px;
     font-weight: 600;
@@ -181,8 +182,9 @@ nav.nav.active a {
 }
 .txt-div p {
     font-family: 'Inter';
-    font-size: 15px;
+    font-size: 18px;
     color: #000;
+    font-weight: 600;
 }
 .works .btn {
     text-align: center;
@@ -192,11 +194,24 @@ nav.nav.active a {
     justify-content: center;
     align-items: center;
 }
+.mantra {
+    padding: 30px;
+}
+.mantra .box-item {
+    margin: 20px;
+}
 .mantra .box-item img {
     width: 50px;
 }
 .mantra .txt-div {
     width: 300px;
+}
+.mantra .txt-div h2 {
+    font-size: 18px;
+}
+.mantra .txt-div p {
+    font-weight: 400;
+    font-family: 'Inter';
 }
 .in-touch {
     padding: 50px;
@@ -287,10 +302,13 @@ footer {
 .logo-div {
     margin-top: 50px;
 }
+.logo-div img {
+    width: 200px;
+}
 .logo-div h1 {
     color: #fff;
     font-family: 'Inter';
-    font-size: 32.2px;
+    font-size: 25.2px;
 }
 
 @media only screen and (max-width: 1025px){
@@ -345,6 +363,9 @@ footer {
         color: #fff;
         font-family: 'Inter';
         font-size: 18.2px;
+    }
+    .logo-div {
+        margin-top: 70px;
     }
 }
 @media only screen and (max-width: 769px){
@@ -413,7 +434,7 @@ footer {
     font-size: 25px;
  }
  .txt-div h2 {
-    font-size: 18px;
+    font-size: 15px;
  }
  .txt-div{
     text-align: center;
@@ -435,8 +456,8 @@ footer {
 }
 .footer-div {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
 }
 .foo-div {
     flex-direction: column;
@@ -444,6 +465,9 @@ footer {
 }
 .foo-txt-div {
     margin-left: 0px;
-    text-align: center;
+    text-align: left;
+}
+.works-btn .btn {
+    font-size: 15px;
 }
 }
